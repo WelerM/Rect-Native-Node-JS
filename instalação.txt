@@ -1,0 +1,28 @@
+COPUTADOR 
+    # Transferir pasta do servidor para local desejado
+    # Instalar Node js
+    # Permitir node js no firewall
+    # Instalar e configurar PM2 e salvar
+        PM2:
+            # tutorial: https://www.youtube.com/watch?v=HKTDC7ijc3k
+            # npm install pm2 -g
+            # download pm2 installer & extrair:  https://github.com/jessety/pm2-installer
+            # colar pasta no diretorio C
+            # no diretório raiz desta pasta, rodar: "npm run configure"
+            # rodar: "npm run configure-policy"
+            # rodar: "npm run setup"
+            # checar se o PM2 está ativo em "serviços", reniciar serviço do PM2
+            # botão direito no serviço PM2 > propriedades > logon > select "Local sys account"
+            # no diretório raiz da pasta servidor, rodar: "pm2 start index.js --env production"
+            # uma pasta chamada "fila de clientes será criada automaticamente na áerea de trabalho"
+            # nesta pasta, ordernarar por "data de modificação" 
+     Observações:
+	O servidor PM2 ficara constantemente ativo, sempre que o computador é ligado.
+	A cada vez que o computador liga, o servidor é ligado e testa se há uma pasta chamada
+	"fila de atendimento" na área de trabalho. Se existe, ele não cria, caso contrário, ele criará.
+	A pasta e os arquivos que lá estiverem, podem ser quando for preciso.
+    
+ANDROID:
+    Instalar APK (aplicativo)
+
+
